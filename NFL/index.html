@@ -18,11 +18,21 @@
 </head>
 
 <body>
-    <div class="header">
-        <input type="text" id="searchBar" oninput="searchTeams()" placeholder="Search teams...">
-        <img src="images/profile-icon.png" alt="Profile" class="profile-icon">
-    </div>
+    <header>
+        <div class="nav-left">
+            <input type="text" id="searchBar" oninput="searchTeams()" placeholder="Search teams...">
+            <a href=".././index.html">Home</a>
+        </div>
+        <div class="nav-right">
+            <a href="NFL/index.html">NFL</a>
+            <a href="*">NBA</a>
+            <a href="*">MLB</a>
+            <a href="../Contact/index.html">Contact Us</a>
+        </div>
+    </header>
     
+
+
     <div class="container" id="teamsContainer">
     </div>
     
@@ -51,9 +61,9 @@
             
             <div class="footer-column">
                 <h2>Resources</h2>
-                <p><a href="#">NFL Data Source</a></p>
-                <p><a href="#">MLB Data Source</a></p>
-                <p><a href="#">NBA Data Source</a></p>
+                <p><a href="https://www.pro-football-reference.com/">NFL Data Source</a></p>
+                <p><a href="https://www.baseball-reference.com/">MLB Data Source</a></p>
+                <p><a href="https://www.basketball-reference.com/">NBA Data Source</a></p>
             </div>
         </div>
         

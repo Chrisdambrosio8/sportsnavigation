@@ -1,0 +1,138 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+/* Navigation Bar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ddd;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.nav-left button,
+.nav-right a {
+    background: none;
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.nav-right a {
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.nav-right a:hover {
+    background-color: #ccc;
+}
+
+/* Hero Section - Full-width Background */
+.hero {
+    position: relative;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+/* Sports Logos Overlay */
+.sports-logos {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.sports-logos img {
+    width: 175px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.sports-logos img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+
+
+.footer {
+    background-color: #ddd; 
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.social-icons img {
+    width: auto;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 1px 50px;
+}
+
+.footer-column {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-column h2 {
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+}
+
+.footer-column p a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 5px 0;
+    padding: 10px;
+    
+}
+
+.footer-bottom {
+    text-align: right;
+    padding: 10px 100px;
+}
+
+.return-top {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

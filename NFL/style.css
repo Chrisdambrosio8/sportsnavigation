@@ -7,12 +7,36 @@ body {
     padding: 0;
 }
 
-.header {
+/* Navigation Bar */
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 95%; 
-    margin: 20px auto; 
+    background-color: #ddd;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.nav-left a,
+.nav-right a {
+    background: none;
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.nav-right a, .nav-left a {
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.nav-right a:hover {
+    background-color: #ccc;
 }
 
 #searchBar {
@@ -22,12 +46,6 @@ body {
     border: 1px solid #ccc;
 }
 
-.profile-icon {
-    width: 40px; 
-    height: 40px;
-    border-radius: 50%;
-    cursor: pointer;
-}
 
 .container {
     display: grid;
