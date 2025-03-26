@@ -150,6 +150,7 @@ header {
 .footer-column h2 {
     font-size: 36px;
     color: black;
+    font-family: Franklin Gothic;
     font-weight: bold;
     margin-bottom: 5px;
     padding-bottom: 20px;
@@ -159,6 +160,7 @@ header {
     text-decoration: none;
     color: black;
     display: block;
+    font-family: 'Times New Roman', Times, serif;
     margin: 5px 0;
     padding: 10px;
     

@@ -116,6 +116,7 @@ font-size: 30px;
 .footer-column h2 {
     font-size: 36px;
     color: black;
+    font-family: Franklin Gothic;
     font-weight: bold;
     margin-bottom: 5px;
     padding-bottom: 20px;
@@ -124,6 +125,7 @@ font-size: 30px;
 .footer-column p a {
     text-decoration: none;
     color: black;
+    font-family: 'Times New Roman', Times, serif;
     display: block;
     margin: 5px 0;
     padding: 10px;
