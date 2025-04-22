@@ -57,7 +57,7 @@ header {
 /* Sports Logos Overlay */
 .sports-logos {
     position: absolute;
-    bottom: 0px;
+    bottom: -75px;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -66,12 +66,9 @@ header {
 }
 
 .sports-logos img {
-    width: 215px;
+    width: 300px;
     height: auto;
     transition: transform 0.3s;
-    background-color: white;
-    padding: 5px 10px;
-    border-radius: 10px;
 }
 
 .sports-logos img:hover {
