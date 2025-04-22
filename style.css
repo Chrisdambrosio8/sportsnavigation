@@ -113,7 +113,7 @@ header {
 .footer-column h2 {
     font-size: 36px;
     color: black;
-    font-family: Franklin Gothic;
+    font-family: Charter;
     font-weight: bold;
     margin-bottom: 5px;
     padding-bottom: 20px;
@@ -122,11 +122,15 @@ header {
 .footer-column p a {
     text-decoration: none;
     color: black;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'helvetica';
     display: block;
     margin: 5px 0;
     padding: 10px;
     
+}
+
+.footer-column p a:hover {
+    text-decoration: underline;
 }
 
 .footer-bottom {
