@@ -62,12 +62,16 @@ header {
     justify-content: center;
     gap: 20px;
     width: 100%;
+    
 }
 
 .sports-logos img {
-    width: 175px;
+    width: 215px;
     height: auto;
     transition: transform 0.3s;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
 }
 
 .sports-logos img:hover {
