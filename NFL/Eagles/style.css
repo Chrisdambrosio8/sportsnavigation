@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+.team-header {
+    background-color: #8A8A8A;
+    padding-right: 20px;
+    border-radius: 10px;
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    gap: 30px;
+    min-height: 140px;
+}
+
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    align-items: flex-start;
+}
+
+.logo-block img {
+    height: 100%;
+    max-height: 250px;
+    border-radius: 10px;
+}
+
+.title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.header-content h1 {
+    margin: 0 0 10px 0;
+    padding-top: 50px;
+    color: #004953;
+    font-size: 4em;
+}
+
+
+
+.team-nav {
+    display: flex;
+    gap: 150px;
+    flex-wrap: wrap;
+    margin-top: auto;
+    padding-bottom: 5px;
+}
+
+.team-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.team-nav a:hover {
+    text-decoration: underline;
+    color: #004953;
+}
+
+.summary {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+.main-layout {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.games-table table,
+.standings-table table {
+    background-color: #bbb;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 280px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.stat-boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat {
+    background-color: #bbb;
+    padding: 15px;
+    width: 160px;
+    border-radius: 10px;
+}
+
+.stat img {
+    width: 60px;
+    margin-top: 10px;
+}
+
+
+

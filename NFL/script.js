@@ -15,7 +15,7 @@ const teams = [
     { name: "Chargers", logo: "images/Chargers.png", url: "#" },
     { name: "Broncos", logo: "images/Broncos.png", url: "#" },
     { name: "Raiders", logo: "images/Raiders.png", url: "#" },
-    { name: "Eagles", logo: "images/Eagles.png", url: "eagles.html" },
+    { name: "Eagles", logo: "images/Eagles.png", url: "Eagles/index.html" },
     { name: "Commanders", logo: "images/Commanders.png", url: "#" },
     { name: "Cowboys", logo: "images/Cowboys.png", url: "#" },
     { name: "Giants", logo: "images/Giants.png", url: "#" },
